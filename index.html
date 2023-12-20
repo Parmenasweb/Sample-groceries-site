@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parma Groceries</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <div class="nav-box">
+      <nav class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="">Login</a></li>
+          <li class="nav-item"><a href="">Order Online</a></li>
+          <li class="nav-item"><a href="">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="image-holder">
+      <img
+        class="main-image"
+        src="/images/Online_grocery_shopping_tablet_1.png"
+        alt="Online_grocery_shopping"
+        width="100%"
+      />
+      <h1 id="caption-1">ORDER YOUR GROCERIES ONLINE</h1>
+    </div>
+
+    <h1 id="pop-cat">POPULAR CATEGORY</h1>
+
+    <hr width="1300" />
+
+    <div id="featured-wrapper">
+      <!-- Dairy product category -->
+      <div class="product-container">
+        <p class="cat-text">Dairy Product</p>
+        <img src="/images/dairy.jpg" alt="dairy" width="250" />
+        <div class="btn-box">
+          <button class="dairy-button" type="button" name="button">
+            View More
+          </button>
+        </div>
+      </div>
+
+      <!-- cold meat category -->
+
+      <div class="product-container">
+        <p class="cat-text">Cold Meat Products</p>
+        <img
+          src="/images/coldmeat.jpg"
+          alt="coldmeat"
+          width="250"
+          height="180"
+        />
+        <div class="btn-box">
+          <button class="dairy-button" type="button" name="button">
+            View More
+          </button>
+        </div>
+      </div>
+
+      <!-- fruits and vegetable category -->
+
+      <div class="product-container">
+        <p class="cat-text">Fruits And Veg Products</p>
+        <img
+          src="/images/fruits and veg.jpg"
+          alt="fruit and veg"
+          width="250"
+          height="180"
+        />
+        <div class="btn-box">
+          <button class="dairy-button" type="button" name="button">
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- social icon category -->
+
+    <div id="social-media-box" background color="#00000">
+      <br />
+      <div id="facebook-icon">
+        <img src="/images/Facebook.png" alt="Facebook" width="50" />
+      </div>
+      <div id="twitter-icon">
+        <img src="/images/Twitter.png" alt="Twitter" width="50" />
+      </div>
+      <div id="instagram-icon">
+        <img src="/images/Instagram.png" alt="Instagram" width="50" />
+      </div>
+    </div>
+
+    <!-- form box category -->
+    <hr />
+    <div class="form-box">
+      <div class="form-head-box">
+        <img
+          id="form-icon"
+          src="/images/form sample.png"
+          alt="form"
+          width="50"
+        />
+        <p id="contact-us">Contact Us</p>
+      </div>
+      <form action="">
+        <label class="form-item" for="F-name">First Name</label>
+        <input
+          type="text"
+          id="F-name"
+          name="First Name"
+          placeholder="Your First Name"
+        />
+        <br />
+        <br />
+
+        <label class="form-item" for="L-name">Last Name</label>
+        <input
+          type="text"
+          id="L-name"
+          name="Last Name"
+          placeholder="Your Last Name"
+        />
+        <br />
+        <br />
+
+        <label class="form-item" for="Subject">Subject</label>
+        <textarea
+          name="Subject"
+          id="Subject-box"
+          cols="20"
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+        <br />
+        <input type="submit" id="submit-btn" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
